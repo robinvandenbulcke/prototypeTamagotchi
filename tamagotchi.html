@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./tamagotchi.js" defer></script>
+</head>
+
+<body>
+
+    <label for="nameTag">Name: </label><br>
+    <input type="text" name="name" id="nameTag" title="name" placeholder="name of animal"><br>
+    <label for="weight">Weight: </label><br>
+    <input type="number" name="weight" id="weight" title="weight" placeholder="weight of animal"><br><br>
+
+    <button id="addDog">Add dog</button><br><br>
+    <button id="addCat">Add cat</button><br><br>
+    <button id="addRabbit">Add rabbit</button><br><br>
+    <button id="timeBoost">next day</button><br><br>
+
+
+    <div id="kennel">
+        <table id="">
+            <thead>
+                <tr>
+                    <th id="soortDier">Animal</th>
+                    <th id="naamDier">Name</th>
+                    <th id="hongerDier">Hungerlevel</th>
+                    <th id="gewichtDier">Weight</th>
+                    <th id="geluidDier">Animal Noise</th>
+                    <th id="voederDier"></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th id="totaal">Total number of animals</th>
+                    <td colspan="3" id="totaalAantalDieren"></td>
+                    <th id="totalDeath">Deceased animals</th>
+                    <td colspan="3" id="deathToll"></td>
+                </tr>
+            </tfoot>
+    </div>
+
+</body>
+
+</html>
